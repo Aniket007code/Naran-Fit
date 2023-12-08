@@ -1,0 +1,147 @@
+                          /* ESSENTIALS */
+
+                          
+/* @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap'); */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    --main-color: #283526;
+    --primry-color: #888888;
+    --button-background: #4b709e;
+    --primary-button-background: #fe7649;
+    --background-color: #f0f7ff;
+  }
+  
+  h1,
+  h2 {
+    font-family: Avenir LT Std;
+    color: var(--main-color);
+  }
+  
+  h4,
+  h3 {
+    font-family: "muli";
+    color: var(--main-color);
+  }
+  
+  h3 {
+    font-weight: 750;
+    font-size: 2.2rem;
+    line-height: 6rem;
+    text-transform: capitalize;
+  }
+  
+  p,
+  a,
+  li,
+  button {
+    font-family: 'Mulish', sans-serif;
+    color: var(--primry-color);
+  }
+  
+  p {
+    font-size: 1.8rem;
+    line-height: 150%;
+    font-style: normal;
+    font-weight: normal;
+  }
+  
+  a {
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+ button{
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    border: none;
+    outline: none;
+    line-height: 2rem;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.5rem;
+ }
+
+/*.................................... MENU STYLINBG ...........................................*/
+
+header{
+    /* border:  1px solid red; */
+    margin: 0 2.5rem;
+}
+
+header nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.left-side-menu{
+    /* border: 1px solid blue; */
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigations{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.3rem;
+
+    /* border: 1px solid green; */
+
+}
+
+.right-side-menu{
+    /* border: 1px solid green; */
+    width: 30%;
+    margin: 0 2rem;
+    /* background-color: #4b709e; */
+
+    
+}
+.right-side-buttons{
+    /* border: 1px solid red; */
+    /* margin: 6rem; */
+    margin: 0 2rem;
+
+}
+
+.log-in{
+    margin: 0 5rem;
+}
+
+.header-logo{
+    /* border: 1px solid green; */
+    
+    width: 23rem;
+    height: 10rem;
+
+}
+
+.header-logo-img{
+    width: 100%;
+    height: 100%;
+}
+
+.sign-up{
+    background-color: var(--button-background);
+    color: white;
+}
