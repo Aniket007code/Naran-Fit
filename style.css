@@ -111,14 +111,7 @@ header nav{
 
 }
 
-.right-side-menu{
-    /* border: 1px solid green; */
-    /* width: 30%; */
-    /* margin: 0 1rem; */
-    /* background-color: #4b709e; */
 
-    
-}
 .right-side-buttons{
     /* border: 1px solid red; */
     /* margin: 6rem; */
@@ -351,6 +344,98 @@ header nav{
   width: 100%;
   height: 100%;
 }
+
+.third-sec{
+  width: 100%;
+  height: 550px;
+  background-color: var(--background-color);
+  border: 1px solid var(--background-color);
+  
+}
+
+.third-sec-details{
+  text-align: center;
+  margin-top: 2rem;
+  border: 1px solid red;
+  /* gap: 8rem; */
+}
+
+.third-sec-heading h1{
+  font-size: 3rem;
+  font-family: 'Poppins', sans-serif;
+  /* font-weight: 1000; */
+  margin-bottom: 0.5rem;
+  
+}
+
+.grid-container{
+  width: inherit;
+  height: 37rem;
+  border: 1px solid rebeccapurple;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  margin-top: 2rem;
+  /* gap: 5rem; */
+  /* margin: 2rem; */
+}
+
+.grid-card-container{
+  border: 1px solid hotpink;
+ 
+  /* margin: 2rem; */
+  margin-left: 4rem;
+  margin-right: 4rem;
+  
+  border-radius: 30px;
+
+  
+}
+
+.grid-img{
+  width: 18rem;
+  height: 18rem;
+
+}
+
+/* .grid-para{
+  max-width: 400px;
+  margin-left: 8rem;
+  
+} */
+
+.wrapper-grid{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+}
+
+.grid-img-img{
+  width: 100%;
+  height: 100%;
+}
+
+.grid-heading h3{
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.grid-card-container :hover{
+  background-color: white;
+  
+}
+
+.grid-img img:hover {
+  /* background-color: red; */
+  transition: linear 1s;
+  transform: rotate(360deg);
+
+}
+
+
 
 
 
