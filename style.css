@@ -356,7 +356,7 @@ header nav{
 .third-sec-details{
   text-align: center;
   margin-top: 2rem;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   /* gap: 8rem; */
 }
 
@@ -371,16 +371,20 @@ header nav{
 .grid-container{
   width: inherit;
   height: 37rem;
-  border: 1px solid rebeccapurple;
+  /* border: 3px solid rebeccapurple; */
   display: grid;
   grid-template-columns: repeat(3,1fr);
   margin-top: 2rem;
+  padding: 2rem 6rem;
+
+
+  /* margin: 0 2rem; */
   /* gap: 5rem; */
   /* margin: 2rem; */
 }
 
 .grid-card-container{
-  border: 1px solid hotpink;
+  /* border: 1px solid hotpink; */
  
   /* margin: 2rem; */
   margin-left: 4rem;
@@ -425,15 +429,93 @@ header nav{
 
 .grid-card-container :hover{
   background-color: white;
+  /* box-shadow: 0 2px 1px rgba(0,0,0,0.09), 0 4px 2px rgba(0,0,0,0.09), 0 8px 4px rgba(0,0,0,0.09), 0 16px 8px rgba(0,0,0,0.09), 0 32px 16px rgba(0,0,0,0.09); */
+  /* box-shadow: 0 26px 58px 0 rgba(0, 0, 0, .22), 0 5px 14px 0 rgba(0, 0, 0, .18);000 */
+  /* box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22); */
   
 }
 
-.grid-img img:hover {
+
+
+
+
+
+
+.grid-img-img:hover {
   /* background-color: red; */
   transition: linear 1s;
   transform: rotate(360deg);
+  box-shadow: none;
 
 }
+
+
+
+/*  . ............................4sec css ...................................................... 
+..............................................................................................................*/
+
+
+.sec-four-img{
+   width: 500px;
+   height: 400px;
+   margin-top: 2rem;
+}
+
+.second-section-leftimg{
+  /* border: 1px solid red; */
+}
+
+#fourth-sec-text{
+  /* border: 1px solid green; */
+  /* display: flex; */
+  /* flex-direction: row; */
+  justify-content: end;
+  margin-left: 10rem;
+}
+
+.fifth-section-img{
+  /* border: 1px solid red; */
+}
+
+.fifth-img{
+  width: 400px;
+  height: 500px;
+  margin-left: 9rem;
+  margin-top: 2rem;
+}
+
+#fifth-sec-title{
+  font-size: 2rem;
+  line-height: 4rem;
+  margin-bottom: 2.5rem;
+}
+
+#fifth-sec-small-title{
+  display: flex;
+  font-size: 1.3rem;
+  margin-bottom: 1.2rem;
+  margin-left: 0.1rem;
+}
+
+#svg-img{
+  padding-right: 1rem;
+  
+}
+
+
+#fifth-sec-border{
+  padding-top: 10rem;
+  margin-top: 2rem;
+  padding-left: 2rem;
+}
+
+
+
+
+
+
+
+
 
 
 
