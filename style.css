@@ -22,6 +22,7 @@ html {
     --button-background: #4b709e;
     --primary-button-background: #ee6234;
     --background-color: #f0f7ff;
+      height: auto;
   }
   
   h1,
@@ -102,6 +103,9 @@ header nav{
     justify-content: space-between;
 }
 
+  
+
+
 .navigations{
     width: 50%;
     display: flex;
@@ -144,6 +148,8 @@ header nav{
     background-color: var(--button-background);
     color: white;
 }
+
+
 
 
 
@@ -250,6 +256,149 @@ header nav{
    /* right: inherit; */
    /* scroll-behavior: none; */
 }
+
+@media  (max-width: 780px) {
+  header{
+    /* border:  1px solid red; */
+    margin:0 2rem
+  }
+  .right-section{
+    width: 100%;
+    background: none;
+     /* display: none; */
+
+   }
+
+
+   .main-landing-section{
+    
+    /* border: 1px solid rgb(62, 17, 134); */
+    /* display: block; */
+    /* margin: 0 6rem; */
+  
+   
+  }
+
+   .left-side-menu{
+    display: block;
+    width: 100%;
+    /* border: 1px solid red; */
+   }
+
+   .navigations{
+    /* border: 1px solid brown; */
+    width: 100%;
+    justify-content: space-between;
+   }
+
+   .right-side-menu{
+    /* border: 1px solid green; */
+    width: 100%;
+    /* margin-left: 0; */
+   }
+
+   .sign-up{
+    /* border: 1px solid hotpink; */
+    margin-left: 0;
+    margin-right: 2rem;
+    margin-top: 1rem;
+
+
+    
+   }
+
+   .log-in{
+    /* border: 1px solid hotpink; */
+    margin-left: 0;
+    /* margin-top: 1rem; */
+   }
+
+   .left-section{
+    width: 100%;
+    /* border: 1px solid red; */
+    justify-content: center;
+    align-items: center;
+    margin-right: 14rem;
+    padding: 10rem;
+    margin-top: 30rem;
+    
+   }
+
+   .hero-img{
+    /* position: relative; */
+    /* display: block; */
+    margin-top: 10rem;
+    width: 300px;
+    height: 300px;
+    /* border: 1px solid red; */
+    background-color: none;
+    margin-right: 15rem;
+   }
+
+   .second-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+
+   .bg-color{
+    display: none;
+   }
+
+   .second-section-img{
+    /* border: 1px solid red; */
+    margin-top: 22rem;
+  
+   }
+
+   .second-section-rightText{
+    /* border: 1px solid blue; */
+    margin-top: 33rem;
+    
+  
+   }
+
+   .grid-container{
+       /* background-color: plum; */
+       gap: 2rem;
+       /* background: none; */
+   }
+
+   .wrapper-grid{
+    /* border: 1px solid red; */
+    margin: 1rem;
+    padding-bottom: 2rem;
+    margin-bottom: 4rem;
+   }
+
+   .third-sec{
+      /* border: 2px solid red; */
+   }
+
+   #fourth-sec-text{
+    /* border: 1px solid red; */
+    margin-top: 1500px;
+   }
+
+  .sec-four-img{
+    /* border: 1px solid green; */
+    margin-top: 1500px;
+  }
+
+  .fifth-img{
+    border: 1px solid lawngreen;
+    margin-top: 400rem;
+    width: 200px;
+    height: 100px;
+    margin-right: 20rem;
+  }
+
+  .fifth-sec-border{
+    border: 2px soli firebrick;
+  }
+}
+
 
 /* .........................................
 ...........                              2nd SECTION  ........................................................... */
@@ -373,11 +522,12 @@ header nav{
 }
 
 .grid-container{
-  width: inherit;
-  height: 37rem;
+  width: 100%;
+  height: auto;
   /* border: 3px solid rebeccapurple; */
-  display: grid;
-  grid-template-columns: repeat(3,1fr);
+  display: flex;
+  flex-wrap: wrap;
+  /* grid-template-columns: repeat(3,1fr); */
   margin-top: 2rem;
   padding: 2rem 6rem;
 
