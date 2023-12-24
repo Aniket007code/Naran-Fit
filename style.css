@@ -101,6 +101,17 @@ header nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: relative;
+    z-index: 999;
+}
+
+@media (max-width : 1292px) {
+  .grid-container{
+    width: 100%;
+    flex-wrap: nowrap;
+  }
+
+  
 }
 
   
